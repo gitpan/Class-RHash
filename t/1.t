@@ -39,4 +39,3 @@ is $a[1], 'world', 'arrayref as hash elem';
 
 $s->hash(hash => {qw/hello world/});
 is $s->hash('hash', 'hello'), 'world', 'hashref as hash elem';
-
